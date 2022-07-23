@@ -43,7 +43,7 @@ li {
 
     /* Set width length for the left, right and middle columns */
 .left {
-	width: 25%;
+	width: 28%;
 	height: 800px;
 }
 
@@ -52,7 +52,7 @@ li {
 }
 
 .right {
-    width: 75%;
+    width: 72%;
     height: 800px;
 }
 
