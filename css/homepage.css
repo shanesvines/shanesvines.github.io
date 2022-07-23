@@ -1,0 +1,63 @@
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body nav {
+  position: sticky;
+  top: 0;
+}
+
+.header-photo {
+	height: 50px;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background: #00A678;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*-------------------- column stuff --------*/
+
+.column {
+	float: left;
+}
+
+    /* Set width length for the left, right and middle columns */
+.left {
+	width: 25%;
+	height: 800px;
+}
+
+.profile-photo {
+	width: 100%;
+}
+
+.right {
+    width: 75%;
+    height: 800px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
