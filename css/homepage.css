@@ -1,18 +1,18 @@
 html {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
 }
 
 body {
   min-height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Helvetica Neue', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body nav {
   position: sticky;
+  z-index: 10;
   top: 0;
 }
 
@@ -44,7 +44,6 @@ li {
     /* Set width length for the left, right and middle columns */
 .left {
 	width: 28%;
-	height: 800px;
 }
 
 .profile-photo {
@@ -53,11 +52,22 @@ li {
 
 .right {
     width: 72%;
-    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.player {
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  margin: 20px;
 }
