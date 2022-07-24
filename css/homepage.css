@@ -71,3 +71,25 @@ li {
   z-index: 1;
   margin: 20px;
 }
+
+/*--------------- window size --------*/
+
+@media only screen and (max-width: 768px) {
+	.left {
+		width: 0%;
+	}
+
+	.profile-photo {
+		width: 0%;
+	}
+
+	.right {
+	    width: 100%;
+	    display: flex;
+	    flex-wrap: wrap;
+	    flex-direction: column;
+	    align-content: center;
+	    justify-content: center;
+	}
+
+}
