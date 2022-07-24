@@ -44,6 +44,7 @@ li {
     /* Set width length for the left, right and middle columns */
 .left {
 	width: 28%;
+	position: fixed;
 }
 
 .profile-photo {
@@ -51,12 +52,16 @@ li {
 }
 
 .right {
-    width: 72%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
     justify-content: center;
+}
+
+.video-container {
+	margin-left: 50px;
 }
 
 .row:after {
@@ -90,6 +95,10 @@ li {
 	    flex-direction: column;
 	    align-content: center;
 	    justify-content: center;
+	}
+
+	.video-container {
+		margin-left: 0px;
 	}
 
 }
